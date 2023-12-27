@@ -1,0 +1,10 @@
+^E:\FLUTTER WORKSPACE\LOGIN_FORM_VALIDATION_BLOC\BUILD\WINDOWS\X64\CMAKEFILES\CF1D2C49070F5F2B791C609D198C6D94\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SE:/Flutter WorkSpace/login_form_validation_bloc/windows" "-BE:/Flutter WorkSpace/login_form_validation_bloc/build/windows/x64" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "E:/Flutter WorkSpace/login_form_validation_bloc/build/windows/x64/flutter_responsive_login_ui.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
